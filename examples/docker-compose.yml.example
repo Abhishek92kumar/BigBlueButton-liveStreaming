@@ -5,11 +5,11 @@ services:
     container_name: liveStreaming
     environment:
       # BigBlueButton Server url:
-      - BBB_URL=https://your_BigBlueButton_server/bigbluebutton/api
+      - BBB_URL=https://live.puucho.com/bigbluebutton/api
       # BigBlueButton secret:
-      - BBB_SECRET=your_secret
+      - BBB_SECRET=253b08fcebc1cafcec355d1d7e948fc7
       # BigBlueButton meetingID:
-      - BBB_MEETING_ID=your_meetingID
+      - BBB_MEETING_ID=935635ed9328f1147c6e5f3f9fe8260c36fd57dc
       # start meeting (optional):
       - BBB_START_MEETING=false
       # attendee password (optional - has to be set to the attendee password of moodle/greenlight or any other frontend to allow joining via their links):
